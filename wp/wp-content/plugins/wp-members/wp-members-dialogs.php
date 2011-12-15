@@ -40,7 +40,7 @@ function wpmem_inc_login($page="page")
 	     if($wpmem_regchk!="success"){
 		
 			//this shown above blocked content
-			$str = '<p>' . stripslashes($arr[0]) . '</p>';
+			$str = '<p class="message">' . stripslashes($arr[0]) . '</p>';
 
 		} 	
 	} 
@@ -180,9 +180,9 @@ if ( ! function_exists( 'wpmem_inc_loginfailed' ) ):
 function wpmem_inc_loginfailed() 
 { 
 	$str = '<div align="center" id="wpmem_msg">
-		<h2>' . __('Login Failed!', 'wp-members') . '</h2>
-		<p>' . __('You entered an invalid username or password.', 'wp-members') . '</p>
-		<p><a href="' . $_SERVER['REQUEST_URI'] . '">' . __('Click here to continue.', 'wp-members') . '</a></p>
+		<h2>' . __('登录失败!', 'wp-members') . '</h2>
+		<p>' . __('你输入了一个无效的用户名或密码。', 'wp-members') . '</p>
+		<p><a href="' . $_SERVER['REQUEST_URI'] . '">' . __('点此继续。', 'wp-members') . '</a></p>
 	</div>';
 
 	return $str;

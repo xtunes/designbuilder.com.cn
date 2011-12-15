@@ -159,7 +159,7 @@ button {  width: auto; overflow: visible; }
 
 body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
-  color: #000000;
+  color: #444;
   /* Set your base font here, to apply evenly */
   font-family: "Microsoft YaHei";
 }
@@ -212,7 +212,7 @@ h2{font-size:14px;}
 .content{margin-left:30px;}
 .content h1{color:#00aeef;font-size:150%;margin:17px 0 0 0;}
 .downloadcatelogy{border-bottom:1px solid #cde7f2;padding:15px 0 15px 0;}
-.hot{position:absolute;right:0;top:30px;}
+.hot{position:absolute;right:0;top:20px;}
 .productintro .content{width:583px;line-height:22px;}
 .alignleft{float:left!important;}
 .alignright{float:right!important;}
@@ -221,6 +221,9 @@ h2{font-size:14px;}
 .downloaditem h3{background: url('../img/exe.png') no-repeat 0 0;padding-left:43px;display:block;height:32px;line-height:32px;}
 .downloaditem h3 a{color:#4d9bce;}
 .downloaditem .intro{margin-top:10px;}
+.message{background:#d4ebfb;height:37px;text-align:center;line-height:37px;font-weight:bold;margin-top:30px;}
+.breadcrumbs{color:#a5ce42;border-bottom:1px solid #4d9ace;margin-top:10px;padding-left:5px;padding-bottom:5px;margin-bottom:2em;}
+.breadcrumbs a{color:#4d9ace;}
 
 /* =Menu
 -------------------------------------------------------------- */

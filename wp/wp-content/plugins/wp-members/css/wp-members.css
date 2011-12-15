@@ -18,10 +18,12 @@
 /* Error and Dialog Messages */
 
 #wpmem_msg, .wpmem_msg {
-    width:630px;
-    padding-top: 10px;
-    border: 1px #000 solid;
-    background-color:#E6E6E6;
+    width:100%;
+    padding: 10px 0;
+    border: none;
+    background-color:#b7e1fa;
+    margin-top:30px;
+    text-align:center;
 }
 
 /* Sidebar Login Widget */
@@ -55,7 +57,7 @@
 	width:100%;
     padding: 5px;
     border: 1px #000 solid;
-    background-color:#E6E6E6;
+    background-color:#b7e1fa;
 }
 
 /* Login Form and Registration Form */
@@ -67,31 +69,31 @@
 }
 
 #wpmem_reg fieldset, #wpmem_login fieldset {
-	border:1px dashed #ccc;
+	border:5px solid #f1fcf8;
 	padding:10px;
 	margin-top:20px;
 	margin-bottom:20px;
 }
 #wpmem_reg legend, #wpmem_login legend {
-	font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
 	font-weight: bold;
-	background: #c4c4c4;
-	border: 1px solid #333;
-	padding: 8px;
+	background: #00adef;
+	border: 0;
+	padding: 8px 20px;
+	color:#fff;
 }
 #wpmem_reg label.text, #wpmem_reg label.checkbox, 
 #wpmem_reg label.textarea , #wpmem_reg label.select,
 #wpmem_login label {
-	width:230px;
+	width:226px;
 	margin-top:3px;
 	margin-right:2px;
 	padding-top:11px;
 	padding-left:6px;
-	background-color:#ccc;
+	background-color:#b7e1fa;
 	float:left;
 	display: block;
 	line-height: 1.1;
-	color:#666;
+	color:#444;
 }
 #wpmem_reg label.text, #wpmem_reg label.checkbox, 
 #wpmem_reg label.select, #wpmem_login label {
@@ -115,7 +117,7 @@
 #wpmem_login .div_text {
 	width:360px;
 	float:right;
-	background-color:#E6E6E6;
+	background-color:#b7e1fa;
 	margin-top:3px;
 	padding-top:5px;
 	padding-bottom:3px;
@@ -157,7 +159,7 @@
 	width:353px;
 	float:right;
 	background-color:#fff;
-	border:1px solid #ccc;
+	border:none;
 	text-align:right;
 	height:35px;
 	margin-top:3px;
@@ -166,7 +168,6 @@
 }
 
 #wpmem_reg .buttons, #wpmem_login .buttons {
-	font-family:Arial,Helvetica,sans-serif;
 	background: #e3e3db;
 	font-size:12px; 
 	color: #000; 
@@ -177,5 +178,8 @@
 	text-decoration: none;
 	text-transform:uppercase;
 	font-weight:bold;
+}
+#rememberme{
+	vertical-align:middle;
 }
 #wpmem_reg .req { color: red; }
