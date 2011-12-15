@@ -180,7 +180,7 @@ a:hover { color: #8fb931; }
 h2{font-size:14px;}
 .container { margin:0 auto; width:960px;}
 .wrap{background:#f1fbf8;}
-.homebanner{height:370px;}
+.homebanner{height:370px;background: url('../img/banner.jpg') no-repeat 0 0;}
 .homefeatured{background:#cbe5ef;height:257px;}
 .homefeatured img{margin:15px 0 0 15px;}
 .homecontent{background:#f1fbf8;height:339px;}
@@ -224,7 +224,8 @@ h2{font-size:14px;}
 .message{background:#d4ebfb;height:37px;text-align:center;line-height:37px;font-weight:bold;margin-top:30px;}
 .breadcrumbs{color:#a5ce42;border-bottom:1px solid #4d9ace;margin-top:10px;padding-left:5px;padding-bottom:5px;margin-bottom:2em;}
 .breadcrumbs a{color:#4d9ace;}
-
+.btn_try{position:absolute;top:228px;left:338px;}
+.btn_buy{position:absolute;top:235px;left:553px;}
 /* =Menu
 -------------------------------------------------------------- */
 

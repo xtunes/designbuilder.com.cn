@@ -7,8 +7,9 @@
 get_header(); ?>
     	<div class="clear"></div>
     <div id="main">
-    	<div class="homebanner">
-    		<img src="/img/banner.jpg">
+    	<div class="homebanner relative">
+    		<a href="/?cat=6" class="btn_try"><img src="/img/btn_try.jpg"></a>
+    		<a href="/contact/" class="btn_buy"><img src="/img/btn_buy.jpg"></a>
     	</div>
     	<div class="homefeatured">
     		<a href="#"><img src="/img/web_07.jpg"></a>
