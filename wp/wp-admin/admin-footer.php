@@ -14,11 +14,17 @@ if ( !defined('ABSPATH') )
 <div class="clear"></div></div><!-- wpbody-content -->
 <div class="clear"></div></div><!-- wpbody -->
 <div class="clear"></div></div><!-- wpcontent -->
-</div><!-- wpwrap -->
 
 <div id="footer">
-<p id="footer-left" class="alignleft">
-</p>
+<?php do_action( 'in_admin_footer' ); ?>
+<p id="footer-left" class="alignleft"><?php
+$upgrade = apply_filters( 'update_footer', '' );
+$footer_text = array(
+	'<span id="footer-thankyou">' . __( 'Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.' ) . '</span>',
+);
+echo apply_filters( 'admin_footer_text', implode( ' &bull; ', $footer_text ) );
+unset( $footer_text );
+?></p>
 <p id="footer-upgrade" class="alignright"><?php echo $upgrade; ?></p>
 <div class="clear"></div>
 </div>
@@ -35,6 +41,7 @@ if ( function_exists('get_site_option') ) {
 
 ?>
 
+<div class="clear"></div></div><!-- wpwrap -->
 <script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
 </body>
 </html>
