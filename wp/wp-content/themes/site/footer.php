@@ -1,6 +1,6 @@
  </div> <!--! end of #container -->
  <div id="footer">
- 	<div class="container relative">
+ 	<div class="ft relative">
  		<div class="links">
             <a href="#">首页</a> | 
             <a href="#">关于我们</a> | 

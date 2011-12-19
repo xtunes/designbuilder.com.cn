@@ -52,7 +52,7 @@
 <body class="page" id="<?php the_ID(); ?>">
 
    <div class="container">
-    <div id="header" class="relative">
+    <div id="header">
         <div class="logo">
             <img src="img/logo.gif">
         </div>

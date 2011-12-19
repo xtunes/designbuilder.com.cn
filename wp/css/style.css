@@ -178,16 +178,17 @@ a:hover { color: #8fb931; }
  * Author: andrew
  */
 h2{font-size:14px;}
-.container { margin:0 auto; width:960px;}
+.container { margin:0 auto; width:960px;overflow:hidden}
+#header{height:133px;}
 .wrap{background:#f1fbf8;}
-.homebanner{height:370px;background: url('../img/banner.jpg') no-repeat 0 0;}
+.homebanner{height:370px;background: url('../img/banner.jpg') no-repeat 0 0;z-index:0;}
 .homefeatured{background:#cbe5ef;height:257px;}
 .homefeatured img{margin:15px 0 0 15px;}
 .homecontent{background:#f1fbf8;height:339px;}
 .homecontent .news{border-right:2px solid #e9f5db;width:320px;height:100%;float:left;}
-.homecontent .productintro{float:left;background:#fafff6;width:638px;height:100%;}
-#footer{background:#b4dbeb;height:107px;padding-bottom:20px;}
-.links{color:#11427e;position:absolute;right:0;top:12px;font-size:12px;}
+.homecontent .productintro{float:left;background:#fafff6;width:637px;height:100%;}
+#footer{background:#b4dbeb;height:107px;padding-bottom:20px;width:100%;}
+.links{color:#11427e;position:absolute;right:0px;top:12px;font-size:12px;}
 .links a{color:#11427e;margin:0 4px;}
 #footer .friendlylinks{color:#5a8ea2;font-size:12px;position:absolute;top:12px;left:4px;}
 #footer .friendlylinks a{color:#5a8ea2}
@@ -205,14 +206,15 @@ h2{font-size:14px;}
 .sidebar .shortcut ul li a:hover{background: url("../img/arrow2.png") no-repeat scroll 97% center transparent;color: #2C79B3;}
 .sidebar .sidemenu{background:#9fd8fd;}
 .sidebar .sidemenu .sub-menu{border-bottom:1px solid #2b6fb1;}
-.sidebar .sidemenu li a{line-height:32px;color:#fff;font-size:14px;border-bottom:1px solid #2b6fb1;border-top:1px solid #fff;display:block;background:#4c9ace url("../img/menu-arrow.gif") no-repeat 230px center;padding-left:12px;color:#fff;font-weight:bold;}
+.sidebar .sidemenu li a{line-height:32px;height:32px;color:#fff;font-size:14px;border-bottom:1px solid #2b6fb1;border-top:1px solid #fff;display:block;background:#4c9ace url("../img/menu-arrow.gif") no-repeat 230px center;padding-left:12px;color:#fff;font-weight:bold;}
 .sidebar .sidemenu .sub-menu li a{background:#9fd8fd;font-size:12px;line-height:30px;border-bottom:1px solid #95c7e8;border-top:0;width:223px;padding-left:8px;margin-left:12px;color:#276e9d;font-weight:normal;}
 .sidebar .sidemenu .sub-menu li a:hover{color:#5E781F;}
-.rightpart{background:#fff;width:697px;float:left;min-height:587px;border-top:3px solid #fff;border-left:3px solid #fff;}
+.rightpart{background:#fff;width:697px;float:left;min-height:587px;border-top:3px solid #fff;border-left:3px solid #fff;overflow:hidden;}
 .content{margin-left:30px;}
 .content h1{color:#00aeef;font-size:150%;margin:17px 0 0 0;}
 .downloadcatelogy{border-bottom:1px solid #cde7f2;padding:15px 0 15px 0;}
-.hot{position:absolute;right:0;top:20px;}
+.hot{float:right;padding-top:20px;}
+.logo{float:left;}
 .productintro .content{width:583px;line-height:22px;}
 .alignleft{float:left!important;}
 .alignright{float:right!important;}
@@ -224,8 +226,9 @@ h2{font-size:14px;}
 .message{background:#d4ebfb;height:37px;text-align:center;line-height:37px;font-weight:bold;margin-top:30px;}
 .breadcrumbs{color:#a5ce42;border-bottom:1px solid #4d9ace;margin-top:10px;padding-left:5px;padding-bottom:5px;margin-bottom:2em;}
 .breadcrumbs a{color:#4d9ace;}
-.btn_try{position:absolute;top:228px;left:338px;}
-.btn_buy{position:absolute;top:235px;left:553px;}
+.btn_try{top:228px;left:338px;position:absolute;}
+.btn_buy{top:235px;left:553px;position:absolute;}
+.ft{margin:0 auto; width:960px;}
 /* =Menu
 -------------------------------------------------------------- */
 
@@ -234,7 +237,7 @@ h2{font-size:14px;}
 	display: block;
 	float: left;
 	margin: 0 auto;
-	width:100%;
+	width:960px;
 }
 #access .menu-header,
 div.menu {
@@ -251,6 +254,7 @@ div.menu ul {
 div.menu li {
 	float: left;
 	position: relative;
+	z-index:999;
 }
 #access a {
 	color: #fff;
@@ -267,7 +271,6 @@ div.menu li {
 	position: absolute;
 	top: 38px;
 	left: 0;
-	float: left;
 	width: 180px;
 	z-index: 99999;
 }
