@@ -28,7 +28,8 @@
 		<div class="friendlylinks">
 			<h2>友情链接</h2>
 			<ul>
-				<li><a href="http://www.shanghaifeiyi.cn">上海飞熠</a></li>
+				<li><a href="http://www.shanghaifeiyi.cn">上海飞熠软件技术有限公司</a></li>
+				<li><a href="http://www.designbuilder.co.uk">DesignBuilder Software Ltd</a></li>
 			</ul>
 		</div>
 </div>

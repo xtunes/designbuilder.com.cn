@@ -212,6 +212,7 @@ h2{font-size:14px;}
 .rightpart{background:#fff;width:697px;float:left;min-height:587px;border-top:3px solid #fff;border-left:3px solid #fff;overflow:hidden;}
 .content{margin-left:30px;}
 .content h1{color:#00aeef;font-size:150%;margin:17px 0 0 0;}
+.content ul{color:#00aeef;}
 .downloadcatelogy{border-bottom:1px solid #cde7f2;padding:15px 0 15px 0;}
 .hot{float:right;padding-top:20px;}
 .logo{float:left;}
@@ -229,6 +230,8 @@ h2{font-size:14px;}
 .btn_try{top:228px;left:338px;position:absolute;}
 .btn_buy{top:235px;left:553px;position:absolute;}
 .ft{margin:0 auto; width:960px;}
+.newslist{color:#00aeef;list-style:disc;margin-left:30px;line-height:22px;width:279px;}
+.newslist li{margin:5px 0;}
 /* =Menu
 -------------------------------------------------------------- */
 

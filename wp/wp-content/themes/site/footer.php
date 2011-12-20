@@ -13,12 +13,13 @@
         </div>
         <div class="friendlylinks">
         	<span>友情链接：</span>
-            <a href="http://www.shanghaifeiyi.cn">上海飞熠</a>
+            <a href="http://www.shanghaifeiyi.cn">上海飞熠软件技术有限公司</a>
+            <a href="http://www.designbuilder.co.uk">DesignBuilder Software Ltd</a>
         </div>
         <div class="copyright">
             <p>版权所有： 上海飞熠软件技术有限公司  </p>
-            <p>沪ICP备10226898号-1  @2010 All Rights Reserved</p>
-            <p>电话：021-64821011/64822252 Email：sales@shanghaifeiyi.cn</p>
+            <p>沪ICP备10226898号-2  @2010 All Rights Reserved</p>
+            <p>电话：021-64821011/64822252 Email：sales@designbuilder.com.cn</p>
         </div>
  	</div>        
     </div>

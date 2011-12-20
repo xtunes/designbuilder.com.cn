@@ -19,6 +19,15 @@ get_header(); ?>
     	<div class="homecontent">
     		<div class="news">
     			<img src="/img/title_news.gif">
+    			<ul  class="newslist">
+					<?php
+global $post;
+$args = array( 'numberposts' => 9, 'offset'=> 0, 'category' => 18 );
+$myposts = get_posts( $args );
+foreach( $myposts as $post ) :	setup_postdata($post); ?>
+	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+<?php endforeach; ?>
+				</ul>
     		</div>
     		<div class="productintro">
     			<img src="/img/title_intro.gif">
