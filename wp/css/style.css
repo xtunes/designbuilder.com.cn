@@ -234,7 +234,7 @@ h2{font-size:14px;}
 .newslist{color:#00aeef;list-style:disc;margin-left:30px;line-height:22px;width:279px;}
 .newslist li{margin:5px 0;}
 .searchform{line-height:36px;padding-left:10px;float:left;}
-.aligncenter{text-align:center;}
+.aligncenter{display: block; margin-left: auto; margin-right: auto;}
 /* =Menu
 -------------------------------------------------------------- */
 
