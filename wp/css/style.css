@@ -213,6 +213,7 @@ h2{font-size:14px;}
 .content{margin-left:30px;}
 .content h1{color:#00aeef;font-size:150%;margin:17px 0 0 0;}
 .content ul{color:#00aeef;}
+.content ul li{color:#444;}
 .downloadcatelogy{border-bottom:1px solid #cde7f2;padding:15px 0 15px 0;}
 .hot{float:right;padding-top:20px;}
 .logo{float:left;}
