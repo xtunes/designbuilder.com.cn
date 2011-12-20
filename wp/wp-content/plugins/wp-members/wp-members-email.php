@@ -45,24 +45,24 @@ function wpmem_inc_regemail($user_id,$password,$toggle)
 		//this is a new registration
 		$subj = sprintf(__('Your registration info for %s', 'wp-members'), $blogname);
 		
-		$body = sprintf(__('Thank you for registering for %s', 'wp-members'), $blogname)." \r\n\r\n";
-		$body.= sprintf(__('Your registration information is below.', 'wp-members'))."\r\n\r\n";
-		$body.= sprintf(__('You may wish to retain a copy for your records.', 'wp-members'))."\r\n\r\n";
-		$body.= sprintf(__('username: %s', 'wp-members'), $user_login)."\r\n";
-		$body.= sprintf(__('password: %s', 'wp-members'), $password)."\r\n\r\n";
+		$body = sprintf(__('感谢你注册 %s', 'wp-members'), $blogname)." \r\n\r\n";
+		$body.= sprintf(__('你的注册信息如下.', 'wp-members'))."\r\n\r\n";
+		$body.= sprintf(__('建议您妥善保存好您的密码.', 'wp-members'))."\r\n\r\n";
+		$body.= sprintf(__('用户名: %s', 'wp-members'), $user_login)."\r\n";
+		$body.= sprintf(__('密码: %s', 'wp-members'), $password)."\r\n\r\n";
 		
 		if (WPMEM_USE_EXP == 1) { $body.= "Your $exp_type will expire $exp_date \r\n\r\n"; }
 		
-		$body.= sprintf(__('You may login here:', 'wp-members'));
+		$body.= sprintf(__('你可以在此登录:', 'wp-members'));
 		$body.= "$the_permalink \r\n\r\n";
 		$body.= "$wpmem_msurl";
 		break;
 		
 	case 1:
 		//registration is moderated
-		$subj = sprintf(__('Thank you for registering for %s', 'wp-members'), $blogname);
+		$subj = sprintf(__('感谢你注册 %s', 'wp-members'), $blogname);
 		
-		$body = sprintf(__('Thank you for registering for %s. Your registration has been received and is pending approval.', 'wp-members'), $blogname);
+		$body = sprintf(__('感谢你注册 %s. Your registration has been received and is pending approval.', 'wp-members'), $blogname);
 		$body.= "\r\n\r\n";
 		$body.= __('You will receive login instructions upon approval of your account', 'wp-members');
 		$body.= "\r\n\r\n";
@@ -75,8 +75,8 @@ function wpmem_inc_regemail($user_id,$password,$toggle)
 		
 		$body = sprintf(__('Your registration for %s has been approved.', 'wp-members'), $blogname);
 		$body.= "\r\n\r\n";
-		$body.= sprintf(__('Your registration information is below.', 'wp-members'))."\r\n\r\n";
-		$body.= sprintf(__('You may wish to retain a copy for your records.', 'wp-members'))."\r\n\r\n";
+		$body.= sprintf(__('你的注册信息如下.', 'wp-members'))."\r\n\r\n";
+		$body.= sprintf(__('建议您妥善保存好您的密码.', 'wp-members'))."\r\n\r\n";
 		$body.= sprintf(__('username: %s', 'wp-members'), $user_login)."\r\n";
 		$body.= sprintf(__('password: %s', 'wp-members'), $password)."\r\n\r\n";
 		
@@ -100,7 +100,7 @@ function wpmem_inc_regemail($user_id,$password,$toggle)
 		
 		$body = sprintf(__('Your password for %s has been reset', 'wp-members'), $blogname); 
 		$body.= "\r\n\r\n";
-		$body.= __('Your new password is included below. You may wish to retain a copy for your records.', 'wp-members');
+		$body.= __('Your new password is included below. 建议您妥善保存好您的密码.', 'wp-members');
 		$body.= "\r\n\r\n";
 		$body.= sprintf(__('password: %s', 'wp-members'), $password ); 
 		$body.= "\r\n\r\n";
@@ -109,9 +109,9 @@ function wpmem_inc_regemail($user_id,$password,$toggle)
 	}
 	
 	$body.= "-----------------------------------\r\n";
-	$body.= sprintf(__('This is an automated message from %s', 'wp-members'), $blogname);
+	$body.= sprintf(__('这是一封来自 %s 的邮件', 'wp-members'), $blogname);
 	$body.= "\r\n";
-	$body.= __('Please do not reply to this address', 'wp-members');
+	$body.= __('请勿回复此地址', 'wp-members');
 	$body.= "\r\n";
 
 	// end edits for function wpmem_inc_regemail()
@@ -165,9 +165,9 @@ function wpmem_notify_admin( $user_id, $wpmem_fields )
 	
 	$body.= "\r\n";
 	$body.= "-----------------------------------\r\n";
-	$body.= sprintf(__('This is an automated message from %s', 'wp-members'), $blogname);
+	$body.= sprintf(__('这是一封来自 %s 的邮件', 'wp-members'), $blogname);
 	$body.= "\r\n";
-	$body.= __('Please do not reply to this address', 'wp-members');
+	$body.= __('请勿直接回复此地址', 'wp-members');
 	$body.= "\r\n";
 	
 	$admin_email = get_option('admin_email');
