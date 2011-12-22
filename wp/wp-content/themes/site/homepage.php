@@ -12,9 +12,9 @@ get_header(); ?>
     		<a href="/contact/" class="btn_buy"><img src="/img/btn_buy.jpg"></a>
     	</div>
     	<div class="homefeatured">
-    		<a href="#"><img src="/img/web_07.jpg"></a>
-    		<a href="#"><img src="/img/web_09.jpg"></a>
-    		<a href="#"><img src="/img/web_11.jpg"></a>
+    		<a href="/?page_id=58"><img src="/img/web_07.jpg"></a>
+    		<a href="/?page_id=64"><img src="/img/web_09.jpg"></a>
+    		<a href="/?page_id=66"><img src="/img/web_11.jpg"></a>
     	</div>
     	<div class="homecontent">
     		<div class="news">

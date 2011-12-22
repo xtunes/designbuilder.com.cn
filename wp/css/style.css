@@ -235,6 +235,7 @@ h2{font-size:14px;}
 .newslist li{margin:5px 0;}
 .searchform{line-height:36px;padding-left:10px;float:left;}
 .aligncenter{display: block; margin-left: auto; margin-right: auto;}
+.ie6 .searchform{margin-top:5px;}
 /* =Menu
 -------------------------------------------------------------- */
 
@@ -249,7 +250,8 @@ h2{font-size:14px;}
 div.menu {
 	font-size: 14px;
 	margin-left: 12px;
-	width: 100%;
+	width: 742px;
+	float:left;
 }
 #access .menu-header ul,
 div.menu ul {
@@ -262,6 +264,7 @@ div.menu li {
 	position: relative;
 	z-index:999;
 }
+#access #s{width:132px;}
 #access a {
 	color: #fff;
 	display: block;

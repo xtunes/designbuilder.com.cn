@@ -61,6 +61,7 @@
         </div>
          <div id="access" role="navigation">
 			  <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-			          <div class="searchform"><?php get_search_form(); ?></div>
+				<div class="searchform"><?php get_search_form(); ?></div>
+			<div class="clear"></div>
 		</div><!-- #access -->
     </div>
