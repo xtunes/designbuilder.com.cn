@@ -2,11 +2,11 @@
 		<div class="sidemenu">
 			<?php if ( in_category(array('6','7','8','9')) || is_category(array( '6', '7', '8', '9' ))) {
 				wp_nav_menu( array( 'container_class' => 'menu-header', 'menu' => 'download', 'depth' => 2 ) );
-			}else if(is_page('product') ||  is_child('product')) {
+			}else if(is_page('product') ||  is_child('product') ||  is_child('39')) {
 				wp_nav_menu( array( 'container_class' => 'menu-header', 'menu' => 'product', 'depth' => 2 ) );
 			}else if(is_page('download') ||  is_child('download')) {
 				wp_nav_menu( array( 'container_class' => 'menu-header', 'menu' => 'download', 'depth' => 2 ) );
-			}else if(is_page('technology') ||  is_child('technology')) {
+			}else if(is_page('technology') ||  is_child('technology') || is_category(array( '12' ))) {
 				wp_nav_menu( array( 'container_class' => 'menu-header', 'menu' => 'technology', 'depth' => 2 ) );
 			}else if(is_page('education') ||  is_child('education')) {
 				wp_nav_menu( array( 'container_class' => 'menu-header', 'menu' => 'education', 'depth' => 2 ) );

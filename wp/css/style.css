@@ -236,6 +236,7 @@ h2{font-size:14px;}
 .searchform{line-height:36px;padding-left:10px;float:left;}
 .aligncenter{display: block; margin-left: auto; margin-right: auto;}
 .ie6 .searchform{margin-top:5px;}
+.sidebar .current-menu-item a{font-weight:bold!important;}
 /* =Menu
 -------------------------------------------------------------- */
 
