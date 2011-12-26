@@ -9,7 +9,7 @@ get_header(); ?>
     <div id="main">
     	<div class="homebanner relative">
     		<a href="/?cat=6" class="btn_try"><img src="/img/btn_try.jpg"></a>
-    		<a href="/contact/" class="btn_buy"><img src="/img/btn_buy.jpg"></a>
+    		<a href="/?page_id=27" class="btn_buy"><img src="/img/btn_buy.jpg"></a>
     	</div>
     	<div class="homefeatured">
     		<a href="/?page_id=58"><img src="/img/web_07.jpg"></a>
