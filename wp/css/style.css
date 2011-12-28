@@ -218,8 +218,8 @@ h2{font-size:14px;}
 .hot{float:right;padding-top:20px;}
 .logo{float:left;}
 .productintro .content{width:583px;line-height:22px;}
-.alignleft{float:left!important;}
-.alignright{float:right!important;}
+.alignleft{float:left!important;margin:0 10px 10px 0;}
+.alignright{float:right!important;margin:0 0 10px 10px;}
 .content p{text-indent:2em;}
 .downloaditem{border-bottom:1px solid #cde7f2;padding:15px 0;}
 .downloaditem h3{background: url('../img/exe.png') no-repeat 0 0;padding-left:43px;display:block;height:32px;line-height:32px;}
