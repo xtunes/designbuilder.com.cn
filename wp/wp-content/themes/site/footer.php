@@ -2,14 +2,14 @@
  <div id="footer">
  	<div class="ft relative">
  		<div class="links">
-            <a href="#">首页</a> | 
-            <a href="#">关于我们</a> | 
-            <a href="#">产品介绍</a> | 
-            <a href="#">下载中心</a> | 
-            <a href="#">技术支持</a> |
-            <a href="#">教育培训</a> |
-            <a href="#">合作伙伴</a> |
-            <a href="#">联系我们</a> 
+            <a href="/">首页</a> | 
+            <a href="/?page_id=15">关于我们</a> | 
+            <a href="/?page_id=17">产品介绍</a> | 
+            <a href="/?page_id=19">下载中心</a> | 
+            <a href="/?page_id=21">技术支持</a> |
+            <a href="/?page_id=23">教育培训</a> |
+            <a href="/?page_id=25">合作伙伴</a> |
+            <a href="/?page_id=27">联系我们</a> 
         </div>
         <div class="friendlylinks">
         	<span>友情链接：</span>
