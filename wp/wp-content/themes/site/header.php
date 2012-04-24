@@ -48,7 +48,7 @@
 	wp_head();
 ?>
 <!-- WPA Button Begin -->
-<script type="text/javascript" src=" http://static.b.qq.com/account/bizqq/js/wpa.js?type=10&kfuin=4008161917&ws=www.designbuilder.com.cn&title=%E5%9C%A8%E7%BA%BF%E5%AE%A2%E6%9C%8D&btn1=%E4%BC%81%E4%B8%9AQQ%E4%BA%A4%E8%B0%88&fsty=0&fposX=2&fposY=1&csty=1&tx=1&aty=1&a=1001"></script>
+<script type="text/javascript" src="  http://static.b.qq.com/account/bizqq/js/wpa.js?type=10&kfuin=4008161917&ws=www.designbuilder.com.cn&title=%E5%9C%A8%E7%BA%BF%E5%AE%A2%E6%9C%8D&btn1=%E4%BC%81%E4%B8%9AQQ%E4%BA%A4%E8%B0%88&fsty=0&fposX=2&fposY=1&csty=1&tx=1&aty=1&a=1001"></script>
 <!-- WPA Button END -->
 </head>
 
