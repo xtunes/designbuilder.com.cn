@@ -20,6 +20,7 @@
             <p>版权所有： 上海飞熠软件技术有限公司  </p>
             <p>沪ICP备10226898号-2  @2010 All Rights Reserved</p>
             <p>电话：021-64821011/64822252 Email：sales@designbuilder.com.cn</p>
+     		<p>Powered by &nbsp; <a href="http://www.xtunes.cn">炫律科技</a></p>
             <script type="text/javascript" src="http://js.tongji.linezing.com/2739189/tongji.js"></script><noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2739189/tongji.gif"/></a></noscript>
         </div>
  	</div>        
