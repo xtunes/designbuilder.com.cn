@@ -34,3 +34,8 @@
 # !wp-content/themes/my-theme/
 
 wp-config.php
+wp-content/uploads/
+dbv1-tutorial1/
+dbv1-tutorial2/
+demo/
+downloads/
