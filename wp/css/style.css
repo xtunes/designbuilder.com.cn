@@ -25,6 +25,9 @@ Author: xtunes.cc
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
  * html5doctor.com/html-5-reset-stylesheet/
  */
+@import "template.css";
+@import "custom.css";
+@import "slidestyle.css";
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -414,4 +417,3 @@ div.menu li {
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
-

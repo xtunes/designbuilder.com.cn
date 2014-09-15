@@ -39,3 +39,5 @@ dbv1-tutorial1/
 dbv1-tutorial2/
 demo/
 downloads/
+wp-content/plugins.php
+.htacess
