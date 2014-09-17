@@ -527,7 +527,7 @@ div.moduletable li,
 div.moduletable-hilite li,
 div.moduletable-hilite1 li,
 div.moduletable-hilite2 li {
-	background: url(../img/bullet.gif) no-repeat 5px 8px;
+	background: url(../img/bullet.gif) no-repeat 5px center;
 	margin: 0;
 	padding-left: 16px;
 }
@@ -672,7 +672,7 @@ p.site-slogan {
 
 /* Default Joomla! Menu */
 a.mainlevel {
-	padding: 1px 4px;
+	padding: 6px 4px;
 	outline: none;
 	width: 90%;
 	display: block;
