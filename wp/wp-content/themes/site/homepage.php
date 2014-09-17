@@ -155,7 +155,6 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
             </tr>
                     </tbody></table>  
                     <br>
-                    <br>
              <table class="contentpaneopen">
                 <tbody><tr>
                                     <td class="contentheading" width="100%">
@@ -183,7 +182,7 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
         <div id="ja-col1">
                     <div class="moduletable">
                                 <h3>DesignBuilder Version 4</h3>
-                    <ul id="mainlevel"><li><a href="/v4/" class="mainlevel">DesignBuilder v4 更新内容</a></li><li><a href="/upgrade/" class="mainlevel">升级到V4</a></li></ul>        </div>
+                    <ul id="mainlevel"><li><a href="/designbuilderv4更新内容/" class="mainlevel">DesignBuilder v4 更新内容</a></li><li><a href="/升级到v4/" class="mainlevel">升级到V4</a></li></ul>        </div>
                     <div class="moduletable-hilite1">
                                 <h3>最新资讯</h3>
                    <ul>
@@ -198,6 +197,7 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
             </div>
             <div class="moduletable-hilite1">
                 <h3>designbuilder模块</h3>
+                <ul id="mainlevel"><li><a href="/modeller/" class="mainlevel">3-D modeller</a></li><li><a href="/visualisation/" class="mainlevel">Visualisation</a></li><li><a href="/certification/" class="mainlevel">Certification</a></li><li><a href="/simulation/" class="mainlevel">Simulation</a></li><li><a href="/daylighting/" class="mainlevel">Daylighting</a></li><li><a href="/hvac/" class="mainlevel">HVAC</a></li><li><a href="/cost/" class="mainlevel">Cost</a></li><li><a href="/leed/" class="mainlevel">LEED</a></li><li><a href="/optimisation/" class="mainlevel">Optimisation</a></li><li><a href="/cfd/" class="mainlevel">CFD</a></li></ul>
             </div>
                 </div>
         <!-- END: LEFT COLUMN -->
