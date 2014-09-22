@@ -197,7 +197,7 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
             </div>
             <div class="moduletable-hilite1">
                 <h3>designbuilder模块</h3>
-                <ul id="mainlevel"><li><a href="/modeller/" class="mainlevel">3-D modeller</a></li><li><a href="/visualisation/" class="mainlevel">Visualisation</a></li><li><a href="/certification/" class="mainlevel">Certification</a></li><li><a href="/simulation/" class="mainlevel">Simulation</a></li><li><a href="/daylighting/" class="mainlevel">Daylighting</a></li><li><a href="/hvac/" class="mainlevel">HVAC</a></li><li><a href="/cost/" class="mainlevel">Cost</a></li><li><a href="/leed/" class="mainlevel">LEED</a></li><li><a href="/optimisation/" class="mainlevel">Optimisation</a></li><li><a href="/cfd/" class="mainlevel">CFD</a></li></ul>
+                <ul id="mainlevel"><li><a href="/设计模块/" class="mainlevel">设计模块</a></li><li><a href="/扩展模块/" class="mainlevel">扩展模块</a></li><li><a href="/高级全模块/" class="mainlevel">高级全模块</a></li></ul>
             </div>
                 </div>
         <!-- END: LEFT COLUMN -->
