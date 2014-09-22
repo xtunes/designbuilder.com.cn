@@ -196,7 +196,7 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
                                 </ul>    
             </div>
             <div class="moduletable-hilite1">
-                <h3>designbuilder模块</h3>
+                <h3>DesignBuilder购买模块</h3>
                 <ul id="mainlevel"><li><a href="/设计模块/" class="mainlevel">设计模块</a></li><li><a href="/扩展模块/" class="mainlevel">扩展模块</a></li><li><a href="/高级全模块/" class="mainlevel">高级全模块</a></li></ul>
             </div>
                 </div>
