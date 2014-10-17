@@ -69,26 +69,26 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
 <div id="wowslider-container1">
 <div class="ws_images">
 <ul>
-    <li><a href="/products/"><img id="wows1_1" src="/img/banners/visualisation-banner1.png" alt="令人惊叹的渲染图像与场地阴影分析" title="令人惊叹的渲染图像与场地阴影分析" /></a>旋转，缩放，浏览你的建筑设计</li>
-    <li><a href="/products/"><img id="wows1_2" src="/img/banners/3-D-modeller-banner1.png" alt="创新生产力之快速建模" title="创新生产力之快速建模" /></a>我们的3D建模功能，学得快上手快</li>
-    <li><a href="/products/"><img id="wows1_0" src="/img/banners/eplus-graph-banner2.png" alt="DesignBuilder - 让建筑模拟房简单" title="DesignBuilder - 让建筑模拟房简单" /></a>能量与舒适性模拟</li>
-    <li><a href="/certification/"><img id="wows1_9" src="/img/banners/certification-banner3.png" alt="最快与最简单的方法通过UK-EPCs与Part-L2认证" title="最快与最简单的方法通过UK-EPCs与Part-L2认证" /></a>快速学习，简单实用</li>
-    <li><a href="/products/"><img id="wows1_4" src="/img/banners/daylighting-banner1.png" alt="准确的评价自然采光与视觉舒适性" title="准确的评价自然采光与视觉舒适性" /></a>Reports daylight factors and illuminance using Radiance</li>
-    <li><a href="/engineers/"><img id="wows1_5" src="/img/banners/eplus-hvac-banner1.png" alt="使用EnergyPlus高级暖通空调系统仿真" title="使用EnergyPlus高级暖通空调系统仿真" /></a>强大而灵活的E+暖通仿真界面</li>
-    <li><a href="/engineers/"><img id="wows1_6" src="/img/banners/cfd-banner1.png" alt="计算并查看气流与3维温度分布" title="计算并查看气流与3维温度分布" /></a>计算流体力学计算建筑内部和周围的空气状态</li>
-    <li><a href="/optimisation/"><img id="wows1_7" src="/img/banners/optimise-banner1.png" alt="完善的最优化功能和成本效益计算" title="完善的最优化功能和成本效益计算" /></a>多变量最优化帮我们达到设计目的</li>
+    <li><a href="/product/features/visualisation/"><img id="wows1_1" src="/img/banners/visualisation-banner1.png" alt="令人惊叹的渲染图像与场地阴影分析" title="令人惊叹的渲染图像与场地阴影分析" /></a>旋转，缩放，浏览你的建筑设计</li>
+    <li><a href="/product/features/hvac%e6%a8%a1%e6%8b%9f/"><img id="wows1_2" src="/img/banners/3-D-modeller-banner1.png" alt="创新生产力之快速建模" title="创新生产力之快速建模" /></a>我们的3D建模功能，学得快上手快</li>
+    <li><a href="/product/features/energyplus-simulation/"><img id="wows1_0" src="/img/banners/eplus-graph-banner2.png" alt="DesignBuilder - 让建筑模拟房简单" title="DesignBuilder - 让建筑模拟房简单" /></a>能量与舒适性模拟</li>
+    <li><a href="#"><img id="wows1_9" src="/img/banners/certification-banner3.png" alt="最快与最简单的方法通过UK-EPCs与Part-L2认证" title="最快与最简单的方法通过UK-EPCs与Part-L2认证" /></a>快速学习，简单实用</li>
+    <li><a href="/product/features/daylighting/"><img id="wows1_4" src="/img/banners/daylighting-banner1.png" alt="准确的评价自然采光与视觉舒适性" title="准确的评价自然采光与视觉舒适性" /></a>Reports daylight factors and illuminance using Radiance</li>
+    <li><a href="/product/features/enerplus/"><img id="wows1_5" src="/img/banners/eplus-hvac-banner1.png" alt="使用EnergyPlus高级暖通空调系统仿真" title="使用EnergyPlus高级暖通空调系统仿真" /></a>强大而灵活的E+暖通仿真界面</li>
+    <li><a href="/product/features/cfd/"><img id="wows1_6" src="/img/banners/cfd-banner1.png" alt="计算并查看气流与3维温度分布" title="计算并查看气流与3维温度分布" /></a>计算流体力学计算建筑内部和周围的空气状态</li>
+    <li><a href="/product/features/optimisation-and-cost/"><img id="wows1_7" src="/img/banners/optimise-banner1.png" alt="完善的最优化功能和成本效益计算" title="完善的最优化功能和成本效益计算" /></a>多变量最优化帮我们达到设计目的</li>
 </ul>
 </div>
 <div class="ws_bullets">
 <div>
-<a href="http://www.designbuilder.com.cn/#" title="令人惊叹的渲染图像与场地阴影分析">2</a>
-<a href="http://www.designbuilder.com.cn/#" title="创新生产力之快速建模">3</a>
-<a href="http://www.designbuilder.com.cn/#" title="DesignBuilder - 让建筑模拟房简单">1</a>
+<a href="http://www.designbuilder.com.cn/product/features/visualisation/" title="令人惊叹的渲染图像与场地阴影分析">2</a>
+<a href="http://www.designbuilder.com.cn/product/features/hvac%e6%a8%a1%e6%8b%9f/" title="创新生产力之快速建模">3</a>
+<a href="http://www.designbuilder.com.cn/product/features/energyplus-simulation/" title="DesignBuilder - 让建筑模拟房简单">1</a>
 <a href="http://www.designbuilder.com.cn/#" title="最快与最简单的方法通过UK-EPCs与Part-L2认证">9</a>
-<a href="http://www.designbuilder.com.cn/#" title="准确的评价自然采光与视觉舒适性">5</a>
-<a href="http://www.designbuilder.com.cn/#" title="使用EnergyPlus高级暖通空调系统仿真">6</a>
-<a href="http://www.designbuilder.com.cn/#" title="计算并查看气流与3维温度分布">7</a>
-<a href="http://www.designbuilder.com.cn/#" title="完善的最优化功能和成本效益计算">8</a>
+<a href="http://www.designbuilder.com.cn/product/features/daylighting/" title="准确的评价自然采光与视觉舒适性">5</a>
+<a href="http://www.designbuilder.com.cn/product/features/enerplus/" title="使用EnergyPlus高级暖通空调系统仿真">6</a>
+<a href="http://www.designbuilder.com.cn/product/features/cfd/" title="计算并查看气流与3维温度分布">7</a>
+<a href="http://www.designbuilder.com.cn/product/features/optimisation-and-cost/" title="完善的最优化功能和成本效益计算">8</a>
 </div>
 </div>
 </div>
@@ -136,7 +136,7 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
                 </p>
                 </td>
             </tr>
-            <tr>
+           <!--  <tr>
                 <td align="center">
                 <a href="/engineers/" class="dbs_buttons2 black">了解更多 &gt;&gt;</a>  <br>
                 </td>
@@ -148,7 +148,7 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
                 <td align="center">
                 <a href="/energy-assessors/" class="dbs_buttons2 black">了解更多 &gt;&gt;</a>  
                 </td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
                 </td>
